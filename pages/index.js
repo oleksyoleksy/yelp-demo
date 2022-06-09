@@ -48,9 +48,9 @@ const IndexPage = () => {
       <FaviconTags/>
       <Head>
         <title>
-          {state.width} x {state.height}{` | `} 
-          ratio: {(state.width/state.height).toFixed(3)}
-          {/* DEMO | fetching data from Yelp API in Next.js */}
+          {/* {state.width} x {state.height}{` | `} 
+          ratio: {(state.width/state.height).toFixed(3)} */}
+          DEMO | fetching data from Yelp API in Next.js
         </title>
       </Head>
       <Index/>
